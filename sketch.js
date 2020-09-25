@@ -41,6 +41,8 @@ function draw() {
   fill("white");
   stroke(3);
   text("Note:Press UP_ARROW Key To Feed Drago Milk!",40,50);
+  
+  text ("Food Remaning:"+foodS,150,450)
 }
 
 function readstock(data){
